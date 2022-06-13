@@ -37,6 +37,8 @@ export default {
     productionSourceMap: false,
     devServer: {
         historyApiFallback: false, // Don't serve index.html for 404s in dev
+        open: false, // 自动打开浏览器
+        port: 8090,
     },
     configureWebpack: {
         node: false, // Disable Node.js polyfills (Buffer etc.) -- This will be default in Webpack 5
