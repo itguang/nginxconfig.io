@@ -79,6 +79,8 @@ routing, reverse proxy, www/non-www redirect, CDN, PHP (TCP/socket, WordPress, D
 3. Run the development server *(with file watchers)*
     ```sh
     npm run dev
+   npm run dev --port 8088
+
     ```
 
 4. Open the development site **[localhost:8080](http://localhost:8080)**
